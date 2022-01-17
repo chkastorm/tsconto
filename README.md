@@ -38,6 +38,7 @@ For some reason, mainly lazy, the current version (v1.0.0) only support a SINGLE
 # Pre-request
 - Python3
 # Notice
+- Backup ALL Important file(s), if any, placed under /tmp/ in your GNS3 server (or gns3vm)
 - Installation & Uninstallation Scripts are written in bash
 - Single DB Design so DO NOT support Multiple GNS3 Projects currently
 - For Multiple GNS3 Projects, issue the "scan" command with New < Project ID > & New < Project Name >. The DB will be overwritten (Old DBs can be found from checkpoints).
