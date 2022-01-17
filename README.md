@@ -41,7 +41,7 @@ For some reason, mainly lazy, the current version (v1.0.0) only support a SINGLE
 - Installation & Uninstallation Scripts are written in bash
 - only support a SINGLE RUNNING GNS3 Project. (if you have to work on another project, you will have to "scan" again)
 # Installation
-1. Download the Latest Release to your GNS3 server (or gns3vm). You can do it directly in the server:
+1. Download the release to /tmp/ in your GNS3 server (or gns3vm). You can do it directly in the server:
   
        wget -P /tmp/ https://github.com/chkastorm/tsconto/archive/refs/tags/v1.0.0.tar.gz
 
@@ -55,7 +55,7 @@ For some reason, mainly lazy, the current version (v1.0.0) only support a SINGLE
 
 4. Finish
 # Uninstallion
-1. Download the Latest Release to a location (e.g. /tmp) in your GNS3 server (or gns3vm). You can also do it directly in the server:
+1. Download the release to /tmp/ in your GNS3 server (or gns3vm). You can do it directly in the server:
 
        wget -P /tmp/ https://github.com/chkastorm/tsconto/archive/refs/tags/v1.0.0.tar.gz
 
