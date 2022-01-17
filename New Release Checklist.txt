@@ -2,8 +2,8 @@
 ### README.md
 ########
 
-[] Installation Section : x3 version numbers
-[] Uninstallion Section : x3 version numbers
+[ ] Installation Section : x3 version numbers
+[ ] Uninstallion Section : x3 version numbers
 
 
 
@@ -13,8 +13,8 @@
 
 Reference Section
 ==============================
-[] x1 version number
-[] x1 Date
+[ ] x1 version number
+[ ] x1 Date
 
 
 
@@ -24,12 +24,12 @@ Reference Section
 
 Reference Section
 ==============================
-[] x1 version number
-[] x1 Date
+[ ] x1 version number
+[ ] x1 Date
 
 Bash Section
 ==============================
-[] x3 version numbers
+[ ] x3 version numbers
 
 
 
@@ -39,10 +39,10 @@ Bash Section
 
 Reference Section
 ==============================
-[] x1 version number
-[] x1 Date
+[ ] x1 version number
+[ ] x1 Date
 
 Bash Section
 ==============================
-[] x2 version numbers
+[ ] x2 version numbers
 
