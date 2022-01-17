@@ -6,8 +6,8 @@
 ### Abbreviation : tsconto                                                   ###
 ### Author : Kastor M.                                                       ###
 ### Modified : Kastor M.                                                     ###
-### Version : 1.0.0                                                          ###
-### Date : Mon Jan 17 03:43:42 UTC 2022                                      ###
+### Version : 1.0.1                                                          ###
+### Date : Mon Jan 17 19:45:44 UTC 2022                                      ###
 ###                                                                          ###
 ################################################################################
 
