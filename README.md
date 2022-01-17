@@ -52,7 +52,7 @@ For some reason, mainly lazy, the current version (v1.0.0) only support a SINGLE
 
 3. Run the bash script for installation
 
-       sudo bash /tmp/install.sh
+       sudo bash /tmp/tsconto-1.0.0/install.sh
 
 4. Finish
 # Uninstallion
@@ -66,7 +66,7 @@ For some reason, mainly lazy, the current version (v1.0.0) only support a SINGLE
 
 3. Run the bash script for uninstallation
   
-       sudo bash /tmp/uninstall.sh
+       sudo bash /tmp/tsconto-1.0.0/uninstall.sh
 
 4. Finish
 
