@@ -39,7 +39,8 @@ For some reason, mainly lazy, the current version (v1.0.0) only support a SINGLE
 - Python3
 # Notice
 - Installation & Uninstallation Scripts are written in bash
-- only support a SINGLE RUNNING GNS3 Project. (if you have to work on another project, you will have to "scan" again)
+- Single DB Design so DO NOT support Multiple GNS3 Projects currently
+- For Multiple GNS3 Projects, issue the "scan" command with New < Project ID > & New < Project Name >. The DB will be overwritten (Old DBs can be found from checkpoints).
 # Installation
 1. Download the release to /tmp/ in your GNS3 server (or gns3vm). You can do it directly in the server:
   
