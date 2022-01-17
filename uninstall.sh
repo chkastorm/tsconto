@@ -13,10 +13,7 @@
 
 rm -f /usr/local/bin/tsconto
 rm -rf ~/.rhpn-gns3-stsc/
-rm -f ./tsconto-v1.0.0-gns3.tar
-rm -f ./tsconto.py
-rm -f ./install.sh
-rm -f ./uninstall.sh
+rm -f ./tsconto-1.0.0
 echo ""
 echo "All components from tsconto are removed. Thank you for your support."
 echo ""
