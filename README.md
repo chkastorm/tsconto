@@ -49,11 +49,11 @@ For some reason, mainly lazy, the current version (v1.0.0) only support a SINGLE
 
 2. Decompress the release
 
-       tar -zxvf /tmp/v1.0.0.tar.gz -C /tmp/
+       tar -zxvf /tmp/v1.0.1.tar.gz -C /tmp/
 
 3. Run the bash script for installation
 
-       sudo bash /tmp/tsconto-1.0.0/install.sh
+       sudo bash /tmp/tsconto-1.0.1/install.sh
 
 4. Finish
 # Uninstallion
@@ -63,11 +63,11 @@ For some reason, mainly lazy, the current version (v1.0.0) only support a SINGLE
 
 2. Decompress the release
 
-       tar -zxvf /tmp/v1.0.0.tar.gz -C /tmp/
+       tar -zxvf /tmp/v1.0.1.tar.gz -C /tmp/
 
 3. Run the bash script for uninstallation
   
-       sudo bash /tmp/tsconto-1.0.0/uninstall.sh
+       sudo bash /tmp/tsconto-1.0.1/uninstall.sh
 
 4. Finish
 
