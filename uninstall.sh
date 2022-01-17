@@ -13,8 +13,8 @@
 
 rm -f /usr/local/bin/tsconto
 rm -rf ~/.rhpn-gns3-stsc/
-rm -f ./tsconto-1.0.0.tar.gz
-rm -f ./tsconto-1.0.0
+rm -f /tmp/tsconto-1.0.0.tar.gz
+rm -f /tmp/tsconto-1.0.0
 echo ""
 echo "All components from tsconto are removed. Thank you for your support."
 echo ""
