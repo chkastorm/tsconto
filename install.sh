@@ -11,14 +11,12 @@
 ###                                                                          ###
 ################################################################################
 
+cd ./tsconto-1.0.0
 mv ./tsconto.py /usr/local/bin/tsconto
 chmod 755 /usr/local/bin/tsconto
 chown root:root /usr/local/bin/tsconto
-rm -f ./tsconto-v1.0.0-gns3.tar
-rm -f ./uninstall.sh
-rm -f ./install.sh
+rm -rf ../tsconto-1.0.0
 echo ""
 echo "Install completed. Please issue \"tsconto\" to find the user manual."
 echo ""
-
 
