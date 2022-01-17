@@ -20,3 +20,4 @@ echo ""
 echo "Install completed. Please issue \"tsconto\" to find the user manual."
 echo ""
 
+
