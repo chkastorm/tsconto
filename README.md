@@ -37,15 +37,36 @@ After that, you can just simply execute the "connect" command along with the nam
 For some reason, mainly lazy, the current version (v1.0.0) only support a SINGLE RUNNING GNS3 Project. (if you have to work on another project, you will have to "scan" again)
 # Pre-request
 - Python3
+# Notice
+- Installation & Uninstallation Scripts are written in bash
+- only support a SINGLE RUNNING GNS3 Project. (if you have to work on another project, you will have to "scan" again)
 # Installation
-1. Download "tsconto-v1.0.0-gns3.tar" to the "/tmp" in your GNS3 server (or gns3vm)
-2. Login to the GNS3 server (or gns3vm) and go to the "/tmp" directory (cd /tmp)
-3. tar -xvf ./tsconto-v1.0.0-gns3.tar
-4. sudo bash install.sh
-5. Finish
+1. Download the Latest Release to your GNS3 server (or gns3vm). You can do it directly in the server:
+  
+       wget -P /tmp/ https://github.com/chkastorm/tsconto/archive/refs/tags/v1.0.0.tar.gz
+
+2. Decompress the release
+
+       tar -zxvf /tmp/v1.0.0.tar.gz -C /tmp/
+
+3. Run the bash script for installation
+
+       sudo bash /tmp/install.sh
+
+4. Finish
 # Uninstallion
-1. Download "tsconto-v1.0.0-gns3.tar" to the "/tmp" in your GNS3 server (or gns3vm) which installed tsconto previously
-2. Login to the GNS3 server (or gns3vm) and go to the "/tmp" directory (cd /tmp)
-3. tar -xvf ./tsconto-v1.0.0-gns3.tar
-4. sudo bash uninstall.sh
-5. Complete
+1. Download the Latest Release to a location (e.g. /tmp) in your GNS3 server (or gns3vm). You can also do it directly in the server:
+
+       wget -P /tmp/ https://github.com/chkastorm/tsconto/archive/refs/tags/v1.0.0.tar.gz
+
+2. Decompress the release
+
+       tar -zxvf /tmp/v1.0.0.tar.gz -C /tmp/
+
+3. Run the bash script for uninstallation
+  
+       sudo bash /tmp/uninstall.sh
+
+4. Finish
+
+
