@@ -14,7 +14,7 @@
 mv /tmp/tsconto-1.0.0/tsconto.py /usr/local/bin/tsconto
 chmod 755 /usr/local/bin/tsconto
 chown root:root /usr/local/bin/tsconto
-rm -f /tmp/tsconto-1.0.0.tar.gz
+rm -f /tmp/v1.0.0.tar.gz
 rm -rf /tmp/tsconto-1.0.0
 echo ""
 echo "Install completed. Please issue \"tsconto\" to find the user manual."
