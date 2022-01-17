@@ -204,10 +204,13 @@ elif len(sys.argv) == 2:
 elif (len(sys.argv) == 3 and sys.argv[1] == "database"):
 
     if sys.argv[2] == "checkpoint":
-        if not len(os.listdir(db_folder_at_home_directory)) == 0:
-            print("")
-            os.system('ls -trl ' + db_folder_at_home_directory)
-            print("")
+        if os.path.isdir(db_folder_at_home_directory):
+            if not len(os.listdir(db_folder_at_home_directory)) == 0:
+                print("")
+                os.system('ls -trl ' + db_folder_at_home_directory)
+                print("")
+            else:
+                message_database_checkpoint_empty()
         else:
             message_database_checkpoint_empty()
 
