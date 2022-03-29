@@ -215,6 +215,7 @@ elif (len(sys.argv) == 3 and sys.argv[1] == "database"):
             message_database_checkpoint_empty()
 
     elif sys.argv[2] == "scan":
+        os.system('mkdir -p ' + db_folder_at_home_directory)
         scan_target_project_id = input("Please Enter GNS3 Project ID : ")
         scan_target_project_name = input("Please Enter GNS3 Project Name : ")
         scan_target_gns3_file_path = "/opt/gns3/projects/" + scan_target_project_id + "/" + scan_target_project_name + ".gns3"
