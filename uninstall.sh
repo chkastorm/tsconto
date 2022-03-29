@@ -6,15 +6,15 @@
 ### Abbreviation : tsconto                                                   ###
 ### Author : Kastor M.                                                       ###
 ### Modified : Kastor M.                                                     ###
-### Version : 1.0.1                                                          ###
-### Date : Mon Jan 17 19:45:44 UTC 2022                                      ###
+### Version : 1.0.2                                                          ###
+### Date : Tue 29 Mar 2022 10:45:28 PM UTC                                   ###
 ###                                                                          ###
 ################################################################################
 
 rm -f /usr/local/bin/tsconto
 rm -rf ~/.rhpn-gns3-stsc/
-rm -f /tmp/v1.0.1.tar.gz
-rm -rf /tmp/tsconto-1.0.1
+rm -f /tmp/v1.0.2.tar.gz
+rm -rf /tmp/tsconto-1.0.2
 echo ""
 echo "All components from tsconto are removed. Thank you for your support."
 echo ""
