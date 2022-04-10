@@ -294,14 +294,20 @@ elif (len(sys.argv) == 5 and sys.argv[1] == "database"):
 elif (len(sys.argv) == 3 and sys.argv[1] == "connect"):
 
     if os.path.isfile(db_at_user_home_directory) == True:
+        check_if_hostname_in_list_registered_nodes_exist = False
         db_at_user_home_directory = os.path.expanduser("~/.rhpn-gns3-stsc/dict-GNS3-NEs-list.json")
         with open(db_at_user_home_directory, "r") as list_nodes:
             list_registered_nodes = json.loads(list_nodes.read())
         for entry_as_dict in list_registered_nodes:
             if entry_as_dict["Hostname"] == sys.argv[2]:
                 os.system('telnet 127.0.0.1 ' + str(entry_as_dict["Port"]))
+                check_if_hostname_in_list_registered_nodes_exist = True
             else:
-                message_hostname_not_found()
+                pass
+        if check_if_hostname_in_list_registered_nodes_exist = False:
+            message_hostname_not_found()
+        else:
+            pass
 
     elif os.path.isfile(db_at_user_home_directory) == False:
         message_database_empty()
