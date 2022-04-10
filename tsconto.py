@@ -304,7 +304,7 @@ elif (len(sys.argv) == 3 and sys.argv[1] == "connect"):
                 check_if_hostname_in_list_registered_nodes_exist = True
             else:
                 pass
-        if check_if_hostname_in_list_registered_nodes_exist = False:
+        if check_if_hostname_in_list_registered_nodes_exist == False:
             message_hostname_not_found()
         else:
             pass
