@@ -37,6 +37,11 @@ After that, you can just simply execute the "connect" command along with the nam
 For some reason, mainly lazy, the current version (v1.0.0) only support a SINGLE RUNNING GNS3 Project. (if you have to work on another project, you will have to "scan" again)
 # Pre-request
 - Python3
+# Docker
+- For docker user, please mount the project profile folder, e.g.
+  
+       docker run -td -h c.gns3 --name c --network host -v /root/docker_c_space:/root/docker_c_space -v /opt/gns3/projects:/opt/gns3/projects 825d55fb6340
+  
 # Notice
 - Backup ALL IMPORTANT FILE(S) under /tmp/ in your GNS3 server (or gns3vm) before installation
 - Installation & Uninstallation Scripts are written in bash
