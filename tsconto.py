@@ -318,3 +318,4 @@ elif (len(sys.argv) == 3 and sys.argv[1] == "connect"):
 else:
     message_user_manual()
 
+
