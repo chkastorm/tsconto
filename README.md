@@ -45,29 +45,29 @@ For some reason, mainly lazy, the current version (v1.0.0) only support a SINGLE
 # Installation
 1. Download the release to /tmp/ in your GNS3 server (or gns3vm). You can do it directly in the server:
   
-       wget -P /tmp/ https://github.com/chkastorm/tsconto/archive/refs/tags/v1.0.2.tar.gz
+       wget -P /tmp/ https://github.com/chkastorm/tsconto/archive/refs/tags/v1.0.3.tar.gz
 
 2. Decompress the release
 
-       tar -zxvf /tmp/v1.0.2.tar.gz -C /tmp/
+       tar -zxvf /tmp/v1.0.3.tar.gz -C /tmp/
 
 3. Run the bash script for installation
 
-       sudo bash /tmp/tsconto-1.0.2/install.sh
+       sudo bash /tmp/tsconto-1.0.3/install.sh
 
 4. Finish
 # Uninstallion
 1. Download the release to /tmp/ in your GNS3 server (or gns3vm). You can do it directly in the server:
 
-       wget -P /tmp/ https://github.com/chkastorm/tsconto/archive/refs/tags/v1.0.2.tar.gz
+       wget -P /tmp/ https://github.com/chkastorm/tsconto/archive/refs/tags/v1.0.3.tar.gz
 
 2. Decompress the release
 
-       tar -zxvf /tmp/v1.0.2.tar.gz -C /tmp/
+       tar -zxvf /tmp/v1.0.3.tar.gz -C /tmp/
 
 3. Run the bash script for uninstallation
   
-       sudo bash /tmp/tsconto-1.0.2/uninstall.sh
+       sudo bash /tmp/tsconto-1.0.3/uninstall.sh
 
 4. Finish
 
