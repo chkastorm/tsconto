@@ -6,16 +6,16 @@
 ### Abbreviation : tsconto                                                   ###
 ### Author : Kastor M.                                                       ###
 ### Modified : Kastor M.                                                     ###
-### Version : 1.0.2                                                          ###
-### Date : Tue 29 Mar 2022 10:45:28 PM UTC                                   ###
+### Version : 1.0.3                                                          ###
+### Date : Sun 10 Apr 2022 03:20:16 PM EDT                                   ###
 ###                                                                          ###
 ################################################################################
 
-mv /tmp/tsconto-1.0.2/tsconto.py /usr/local/bin/tsconto
+mv /tmp/tsconto-1.0.3/tsconto.py /usr/local/bin/tsconto
 chmod 755 /usr/local/bin/tsconto
 chown root:root /usr/local/bin/tsconto
-rm -f /tmp/v1.0.2.tar.gz
-rm -rf /tmp/tsconto-1.0.2
+rm -f /tmp/v1.0.3.tar.gz
+rm -rf /tmp/tsconto-1.0.3
 echo ""
 echo "Install completed. Please issue \"tsconto\" to find the user manual."
 echo ""
